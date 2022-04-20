@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/drawable_sheet_background.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/drawable/sheet_background.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/drawable_card_entry_close.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/drawable/card_entry_close.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/anim_stay_put.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/anim/stay_put.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/drawable_google_pay_logo_button.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/drawable/google_pay_logo_button.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/layout_sheet_order.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/layout/sheet_order.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/drawable_button_close.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/drawable/button_close.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/drawable_roundbtn.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/drawable/roundbtn.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/anim_exit_to_bottom.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/anim/exit_to_bottom.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/drawable_hero_cookie.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/drawable/hero_cookie.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/drawable_google_pay_button.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/drawable/google_pay_button.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/drawable_ic_background.png.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/drawable/ic_background.png"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/drawable_button.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/drawable/button.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/layout_activity_cookie.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/layout/activity_cookie.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/anim_enter_from_bottom.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/anim/enter_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/color_color_button_text.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/color/color_button_text.xml"
+    },
+    {
+        "merged": "/Users/beluch/Desktop/payments-android-quickstart 2/app/build/intermediates/res/merged/debug/drawable_card_entry_button.xml.flat",
+        "source": "/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/res/drawable/card_entry_button.xml"
+    }
+]
