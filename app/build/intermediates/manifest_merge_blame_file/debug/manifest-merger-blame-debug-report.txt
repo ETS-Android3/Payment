@@ -1,0 +1,277 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.supercookie"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.squareup.sdk.in-app-payments:in-app-payments:1.5.2] /Users/beluch/.gradle/caches/transforms-3/11c1d7984a21b7a8fd9d126ddeefa494/transformed/jetified-in-app-payments-1.5.2/AndroidManifest.xml:9:5-79
+11-->[com.squareup.sdk.in-app-payments:in-app-payments:1.5.2] /Users/beluch/.gradle/caches/transforms-3/11c1d7984a21b7a8fd9d126ddeefa494/transformed/jetified-in-app-payments-1.5.2/AndroidManifest.xml:9:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.squareup.sdk.in-app-payments:in-app-payments:1.5.2] /Users/beluch/.gradle/caches/transforms-3/11c1d7984a21b7a8fd9d126ddeefa494/transformed/jetified-in-app-payments-1.5.2/AndroidManifest.xml:10:5-67
+12-->[com.squareup.sdk.in-app-payments:in-app-payments:1.5.2] /Users/beluch/.gradle/caches/transforms-3/11c1d7984a21b7a8fd9d126ddeefa494/transformed/jetified-in-app-payments-1.5.2/AndroidManifest.xml:10:22-64
+13
+14    <uses-feature
+14-->[com.google.android.gms:play-services-maps:18.0.2] /Users/beluch/.gradle/caches/transforms-3/3187795cd211767aa1281e9aaa0c8f40/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+15        android:glEsVersion="0x00020000"
+15-->[com.google.android.gms:play-services-maps:18.0.2] /Users/beluch/.gradle/caches/transforms-3/3187795cd211767aa1281e9aaa0c8f40/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+16        android:required="true" />
+16-->[com.google.android.gms:play-services-maps:18.0.2] /Users/beluch/.gradle/caches/transforms-3/3187795cd211767aa1281e9aaa0c8f40/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+17
+18    <queries>
+18-->[com.google.android.gms:play-services-maps:18.0.2] /Users/beluch/.gradle/caches/transforms-3/3187795cd211767aa1281e9aaa0c8f40/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+19
+20        <!-- Needs to be explicitly declared on Android R+ -->
+21        <package android:name="com.google.android.apps.maps" />
+21-->[com.google.android.gms:play-services-maps:18.0.2] /Users/beluch/.gradle/caches/transforms-3/3187795cd211767aa1281e9aaa0c8f40/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+21-->[com.google.android.gms:play-services-maps:18.0.2] /Users/beluch/.gradle/caches/transforms-3/3187795cd211767aa1281e9aaa0c8f40/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+22    </queries>
+23
+24    <application
+24-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:5:3-30:17
+25        android:name="com.example.supercookie.ExampleApplication"
+25-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:6:7-41
+26        android:allowBackup="true"
+26-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:7:7-33
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.7.0] /Users/beluch/.gradle/caches/transforms-3/34f7323e194b133da9b33402beab74c0/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:8:7-41
+31        android:label="@string/app_name"
+31-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:9:7-39
+32        android:testOnly="true" >
+33        <meta-data
+33-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:11:5-13:31
+34            android:name="com.google.android.gms.wallet.api.enabled"
+34-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:12:9-65
+35            android:value="true" />
+35-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:13:9-29
+36        <meta-data
+36-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:15:5-17:64
+37            android:name="sqip.SQUARE_APPLICATION_ID"
+37-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:16:9-50
+38            android:value="sandbox-sq0idb-FwcESer1C-Qf3-ojmwxpBg" />
+38-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:17:9-62
+39
+40        <activity
+40-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:19:5-27:16
+41            android:name="com.example.supercookie.CheckoutActivity"
+41-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:20:9-41
+42            android:theme="@style/AppTheme.CookieActivity" >
+42-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:21:9-55
+43            <intent-filter>
+43-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:22:7-26:23
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:23:9-60
+44-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:23:17-58
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:25:9-68
+46-->/Users/beluch/Desktop/payments-android-quickstart 2/app/src/main/AndroidManifest.xml:25:19-66
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->[com.squareup.sdk.in-app-payments:card-entry:1.5.2] /Users/beluch/.gradle/caches/transforms-3/d1e329786a2ff3b6b251f90b38398fb3/transformed/jetified-card-entry-1.5.2/AndroidManifest.xml:10:9-14:20
+50            android:name="sqip.internal.CardEntryActivity"
+50-->[com.squareup.sdk.in-app-payments:card-entry:1.5.2] /Users/beluch/.gradle/caches/transforms-3/d1e329786a2ff3b6b251f90b38398fb3/transformed/jetified-card-entry-1.5.2/AndroidManifest.xml:11:13-59
+51            android:theme="@style/sqip.Theme.CardEntry"
+51-->[com.squareup.sdk.in-app-payments:card-entry:1.5.2] /Users/beluch/.gradle/caches/transforms-3/d1e329786a2ff3b6b251f90b38398fb3/transformed/jetified-card-entry-1.5.2/AndroidManifest.xml:12:13-56
+52            android:windowSoftInputMode="adjustResize" >
+52-->[com.squareup.sdk.in-app-payments:card-entry:1.5.2] /Users/beluch/.gradle/caches/transforms-3/d1e329786a2ff3b6b251f90b38398fb3/transformed/jetified-card-entry-1.5.2/AndroidManifest.xml:13:13-55
+53        </activity>
+54
+55        <provider
+55-->[com.squareup.sdk.in-app-payments:nonce-api:1.5.2] /Users/beluch/.gradle/caches/transforms-3/d655d3859b0aee9b2180e0ddd409e1e5/transformed/jetified-nonce-api-1.5.2/AndroidManifest.xml:10:9-13:40
+56            android:name="sqip.internal.ContextCaptureContentProvider"
+56-->[com.squareup.sdk.in-app-payments:nonce-api:1.5.2] /Users/beluch/.gradle/caches/transforms-3/d655d3859b0aee9b2180e0ddd409e1e5/transformed/jetified-nonce-api-1.5.2/AndroidManifest.xml:11:13-71
+57            android:authorities="com.example.supercookie.sqip"
+57-->[com.squareup.sdk.in-app-payments:nonce-api:1.5.2] /Users/beluch/.gradle/caches/transforms-3/d655d3859b0aee9b2180e0ddd409e1e5/transformed/jetified-nonce-api-1.5.2/AndroidManifest.xml:12:13-56
+58            android:exported="false" />
+58-->[com.squareup.sdk.in-app-payments:nonce-api:1.5.2] /Users/beluch/.gradle/caches/transforms-3/d655d3859b0aee9b2180e0ddd409e1e5/transformed/jetified-nonce-api-1.5.2/AndroidManifest.xml:13:13-37
+59
+60        <service
+60-->[com.google.firebase:firebase-database:20.0.3] /Users/beluch/.gradle/caches/transforms-3/4d76fe31911ad3d0cbb34a7a6724a8d0/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:29:9-35:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[com.google.firebase:firebase-database:20.0.3] /Users/beluch/.gradle/caches/transforms-3/4d76fe31911ad3d0cbb34a7a6724a8d0/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:30:13-84
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:20.0.0] /Users/beluch/.gradle/caches/transforms-3/f259f219f97fb203a4c84cf3dafcf95f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-database:20.0.3] /Users/beluch/.gradle/caches/transforms-3/4d76fe31911ad3d0cbb34a7a6724a8d0/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:31:13-37
+64            <meta-data
+64-->[com.google.firebase:firebase-database:20.0.3] /Users/beluch/.gradle/caches/transforms-3/4d76fe31911ad3d0cbb34a7a6724a8d0/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:32:13-34:85
+65                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+65-->[com.google.firebase:firebase-database:20.0.3] /Users/beluch/.gradle/caches/transforms-3/4d76fe31911ad3d0cbb34a7a6724a8d0/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:33:17-109
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-database:20.0.3] /Users/beluch/.gradle/caches/transforms-3/4d76fe31911ad3d0cbb34a7a6724a8d0/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:34:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-storage:20.0.0] /Users/beluch/.gradle/caches/transforms-3/8fe0ec5fbcc0f98469d753f39a1b4899/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+68                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+68-->[com.google.firebase:firebase-storage:20.0.0] /Users/beluch/.gradle/caches/transforms-3/8fe0ec5fbcc0f98469d753f39a1b4899/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-storage:20.0.0] /Users/beluch/.gradle/caches/transforms-3/8fe0ec5fbcc0f98469d753f39a1b4899/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+71                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+71-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+73        </service>
+74
+75        <activity
+75-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+76            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+76-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+77            android:excludeFromRecents="true"
+77-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+78            android:exported="true"
+78-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+79            android:launchMode="singleTask"
+79-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+80-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+81            <intent-filter>
+81-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+82                <action android:name="android.intent.action.VIEW" />
+82-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+82-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+84-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+85                <category android:name="android.intent.category.BROWSABLE" />
+85-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+85-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+86
+87                <data
+87-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+88                    android:host="firebase.auth"
+88-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+89                    android:path="/"
+89-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+90                    android:scheme="genericidp" />
+90-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+94            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+94-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+95            android:excludeFromRecents="true"
+95-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+96            android:exported="true"
+96-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+97            android:launchMode="singleTask"
+97-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+98-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+99            <intent-filter>
+99-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+100                <action android:name="android.intent.action.VIEW" />
+100-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+100-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+102-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+103                <category android:name="android.intent.category.BROWSABLE" />
+103-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+103-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+104
+105                <data
+105-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+106                    android:host="firebase.auth"
+106-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+107                    android:path="/"
+107-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+108                    android:scheme="recaptcha" />
+108-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+109            </intent-filter>
+110        </activity>
+111
+112        <service
+112-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+113            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+113-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+114            android:enabled="true"
+114-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+115            android:exported="false" >
+115-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+116            <intent-filter>
+116-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+117                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+117-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+117-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+119-->[com.google.firebase:firebase-auth:21.0.1] /Users/beluch/.gradle/caches/transforms-3/4c6b5b7f2843bec74e396d8c2f1bee81/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+120            </intent-filter>
+121        </service> <!-- Needs to be explicitly declared on P+ -->
+122        <uses-library
+122-->[com.google.android.gms:play-services-maps:18.0.2] /Users/beluch/.gradle/caches/transforms-3/3187795cd211767aa1281e9aaa0c8f40/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+123            android:name="org.apache.http.legacy"
+123-->[com.google.android.gms:play-services-maps:18.0.2] /Users/beluch/.gradle/caches/transforms-3/3187795cd211767aa1281e9aaa0c8f40/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+124            android:required="false" />
+124-->[com.google.android.gms:play-services-maps:18.0.2] /Users/beluch/.gradle/caches/transforms-3/3187795cd211767aa1281e9aaa0c8f40/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+125
+126        <activity
+126-->[com.google.android.gms:play-services-base:18.0.1] /Users/beluch/.gradle/caches/transforms-3/8c7282fbabbf0e44f03caaf55a93389d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+127            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+127-->[com.google.android.gms:play-services-base:18.0.1] /Users/beluch/.gradle/caches/transforms-3/8c7282fbabbf0e44f03caaf55a93389d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-base:18.0.1] /Users/beluch/.gradle/caches/transforms-3/8c7282fbabbf0e44f03caaf55a93389d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.android.gms:play-services-base:18.0.1] /Users/beluch/.gradle/caches/transforms-3/8c7282fbabbf0e44f03caaf55a93389d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+130
+131        <provider
+131-->[com.google.firebase:firebase-common:20.0.0] /Users/beluch/.gradle/caches/transforms-3/f259f219f97fb203a4c84cf3dafcf95f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+132            android:name="com.google.firebase.provider.FirebaseInitProvider"
+132-->[com.google.firebase:firebase-common:20.0.0] /Users/beluch/.gradle/caches/transforms-3/f259f219f97fb203a4c84cf3dafcf95f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+133            android:authorities="com.example.supercookie.firebaseinitprovider"
+133-->[com.google.firebase:firebase-common:20.0.0] /Users/beluch/.gradle/caches/transforms-3/f259f219f97fb203a4c84cf3dafcf95f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+134            android:directBootAware="true"
+134-->[com.google.firebase:firebase-common:20.0.0] /Users/beluch/.gradle/caches/transforms-3/f259f219f97fb203a4c84cf3dafcf95f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+135            android:exported="false"
+135-->[com.google.firebase:firebase-common:20.0.0] /Users/beluch/.gradle/caches/transforms-3/f259f219f97fb203a4c84cf3dafcf95f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+136            android:initOrder="100" />
+136-->[com.google.firebase:firebase-common:20.0.0] /Users/beluch/.gradle/caches/transforms-3/f259f219f97fb203a4c84cf3dafcf95f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+137
+138        <meta-data
+138-->[com.google.android.gms:play-services-basement:18.0.0] /Users/beluch/.gradle/caches/transforms-3/9e9b344dd68687ab8151ddb51c109947/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+139            android:name="com.google.android.gms.version"
+139-->[com.google.android.gms:play-services-basement:18.0.0] /Users/beluch/.gradle/caches/transforms-3/9e9b344dd68687ab8151ddb51c109947/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+140            android:value="@integer/google_play_services_version" />
+140-->[com.google.android.gms:play-services-basement:18.0.0] /Users/beluch/.gradle/caches/transforms-3/9e9b344dd68687ab8151ddb51c109947/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+141
+142        <provider
+142-->[androidx.emoji2:emoji2:1.0.0] /Users/beluch/.gradle/caches/transforms-3/6e41199fd5f3d3509a6a549d2429d4fe/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+143            android:name="androidx.startup.InitializationProvider"
+143-->[androidx.emoji2:emoji2:1.0.0] /Users/beluch/.gradle/caches/transforms-3/6e41199fd5f3d3509a6a549d2429d4fe/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+144            android:authorities="com.example.supercookie.androidx-startup"
+144-->[androidx.emoji2:emoji2:1.0.0] /Users/beluch/.gradle/caches/transforms-3/6e41199fd5f3d3509a6a549d2429d4fe/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+145            android:exported="false" >
+145-->[androidx.emoji2:emoji2:1.0.0] /Users/beluch/.gradle/caches/transforms-3/6e41199fd5f3d3509a6a549d2429d4fe/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+146            <meta-data
+146-->[androidx.emoji2:emoji2:1.0.0] /Users/beluch/.gradle/caches/transforms-3/6e41199fd5f3d3509a6a549d2429d4fe/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+147                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+147-->[androidx.emoji2:emoji2:1.0.0] /Users/beluch/.gradle/caches/transforms-3/6e41199fd5f3d3509a6a549d2429d4fe/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+148                android:value="androidx.startup" />
+148-->[androidx.emoji2:emoji2:1.0.0] /Users/beluch/.gradle/caches/transforms-3/6e41199fd5f3d3509a6a549d2429d4fe/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+149            <meta-data
+149-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/beluch/.gradle/caches/transforms-3/36c2860fa167d376239e50652ed6c9a3/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+150                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+150-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/beluch/.gradle/caches/transforms-3/36c2860fa167d376239e50652ed6c9a3/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+151                android:value="androidx.startup" />
+151-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/beluch/.gradle/caches/transforms-3/36c2860fa167d376239e50652ed6c9a3/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+152        </provider>
+153    </application>
+154
+155</manifest>
